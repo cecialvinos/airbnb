@@ -4,7 +4,7 @@ Segue os passos abaixo para obter o projecto na tua máquina local.
 
 ### 1. Instalar o Git
 
-Antes de começar, certifica-te de que tens o Git instalado.
+Antes de começar, certificar de que o Git está instalado.
 
 - Download: https://git-scm.com/downloads
 - Para verificar a instalação, abre o terminal e executa:
@@ -15,7 +15,7 @@ git --version
 
 ### 2. Clonar o repositório
 
-Abre o terminal (PowerShell, CMD ou terminal do IntelliJ IDEA) e executa:
+Abrir o terminal (PowerShell, CMD ou terminal do IntelliJ IDEA) e executa:
 
 ```bash
 git clone https://github.com/cecialvinos/airbnb.git
