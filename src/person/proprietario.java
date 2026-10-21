@@ -1,4 +1,4 @@
-package model;
+package person;
 
 public class proprietario {
 }
