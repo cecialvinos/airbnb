@@ -8,7 +8,6 @@ public class Pagamento {
     private boolean pago;
 
     public Pagamento() {
-
     }
 
     public Pagamento(int id, double valor, String metodo) {
@@ -35,11 +34,6 @@ public class Pagamento {
     }
 
     public void setValor(double valor) {
-        if (valor <= 0) {
-            throw new IllegalArgumentException(
-                    "O valor deve ser maior que zero."
-            );
-        }
         this.valor = valor;
     }
 
