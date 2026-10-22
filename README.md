@@ -9,7 +9,7 @@ Projeto didático de Programação Orientada a Objetos: proprietários anunciam 
 
 ---
 
-Como clonar o repositório noutra máquina
+# Como clonar o repositório noutra máquina?
 
 Segue os passos abaixo para obter o projecto na tua máquina local.
 
