@@ -25,26 +25,32 @@ public class Endereco {
     }
 
     public String getRua() {
+        System.out.print("Digite sua rua: ");
         return sc.nextLine();
     }
 
     public int getNumero() {
+        System.out.print("Digite seu número: ");
         return sc.nextInt();
     }
 
     public String getBairro() {
+        System.out.print("Digite seu bairro: ");
         return sc.nextLine();
     }
 
     public String getCidade() {
+        System.out.print("Digite sua cidade: ");
         return sc.nextLine();
     }
 
     public String getEstado() {
+        System.out.print("Digite seu estado: ");
         return sc.nextLine();
     }
 
     public int getCep() {
+        System.out.print("Digite seu CEP: ");
         return sc.nextInt();
     }
 
