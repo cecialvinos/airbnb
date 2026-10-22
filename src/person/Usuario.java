@@ -41,7 +41,12 @@ public class Usuario {
         this.cpf = cpf;
     }
 
+    // validacao simples: o email precisa conter '@'
     public void setEmail(String email) {
+        if (email == null || !email.contains("@")) {
+            System.out.println("E-mail invalido: " + email);
+            return;
+        }
         this.email = email;
     }
 

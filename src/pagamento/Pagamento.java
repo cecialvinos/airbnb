@@ -33,7 +33,12 @@ public class Pagamento {
         return pago;
     }
 
+    // validacao: o valor precisa ser maior que zero
     public void setValor(double valor) {
+        if (valor <= 0) {
+            System.out.println("Valor invalido: " + valor + " (deve ser maior que zero).");
+            return;
+        }
         this.valor = valor;
     }
 

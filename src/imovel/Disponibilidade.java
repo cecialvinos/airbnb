@@ -8,6 +8,10 @@ public class Disponibilidade {
     private LocalDate dataSaida;
     private boolean disponivel;
 
+    public Disponibilidade() {
+        this.disponivel = true;
+    }
+
     public Disponibilidade(LocalDate dataEntrada, LocalDate dataSaida) {
         setDataEntrada(dataEntrada);
         setDataSaida(dataSaida);

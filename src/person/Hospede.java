@@ -1,7 +1,10 @@
-
 package person;
 
 public class Hospede extends Usuario {
+
+    public Hospede() {
+        super();
+    }
 
     public Hospede(String nome, String cpf, String email, String senha) {
         super(nome, cpf, email, senha);
