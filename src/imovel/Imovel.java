@@ -18,8 +18,4 @@ public class Imovel {
         this.dataEntrada = dataEntrada;
         this.dataSaida = dataSaida;
     }
-
-
-
 }
-
