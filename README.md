@@ -1,3 +1,14 @@
+# Airbnb (POO em Java)
+
+Projeto didático de Programação Orientada a Objetos: proprietários anunciam imóveis e hóspedes fazem reservas.
+
+- Classes: `Usuario` (superclasse), `Hospede` e `Proprietario` (subclasses), `Imovel` e `Main` (testes).
+- Conceitos aplicados: encapsulamento, construtores, getters/setters com validação e herança.
+- Como executar: rode a classe `Main` (`src/Main.java`). Não há banco de dados, interface gráfica nem frameworks.
+- Registro das etapas: veja `REGISTRO_ETAPAS.md`.
+
+---
+
 Como clonar o repositório noutra máquina
 
 Segue os passos abaixo para obter o projecto na tua máquina local.
