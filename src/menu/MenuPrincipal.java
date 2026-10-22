@@ -18,7 +18,8 @@ public class MenuPrincipal {
             System.out.println("1 - Entrar como Hospede");
             System.out.println("2 - Entrar como Proprietario");
             System.out.println("0 - Sair");
-            System.out.print("Escolha uma opcao: ");
+            System.out.println();
+            System.out.print("Escolha uma opção: ");
 
             opcao = scanner.nextInt();
             scanner.nextLine();
