@@ -43,7 +43,7 @@ public class MenuPrincipal {
                 default:
                     System.out.println("Opcao invalida!");
             }
-
+            scanner.close();
         } while (opcao != 0);
     }
 }
