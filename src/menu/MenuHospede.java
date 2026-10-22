@@ -15,12 +15,13 @@ public class MenuHospede {
 
         do {
             System.out.println("================ MENU DO HOSPEDE ================");
-            System.out.println("1 - Pesquisar imoveis");
+            System.out.println("1 - Pesquisar imóveis");
             System.out.println("2 - Fazer reserva");
             System.out.println("3 - Cancelar reserva");
-            System.out.println("4 - Avaliar imovel");
+            System.out.println("4 - Avaliar imóvel");
             System.out.println("0 - Voltar ao menu principal");
-            System.out.print("Escolha uma opcao: ");
+            System.out.println();
+            System.out.print("Escolha uma opção: ");
 
             opcao = scanner.nextInt();
             scanner.nextLine();
@@ -28,6 +29,7 @@ public class MenuHospede {
             switch (opcao) {
                 case 1:
                     System.out.println("Pesquisar imoveis...");
+
                     break;
 
                 case 2:

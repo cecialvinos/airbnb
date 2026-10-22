@@ -15,13 +15,14 @@ public class MenuProprietario {
 
         do {
             System.out.println("================ MENU DO PROPRIETARIO ================");
-            System.out.println("1 - Cadastrar imovel");
-            System.out.println("2 - Editar imovel");
-            System.out.println("3 - Remover imovel");
+            System.out.println("1 - Cadastrar imóvel");
+            System.out.println("2 - Editar imóvel");
+            System.out.println("3 - Remover imóvel");
             System.out.println("4 - Visualizar reservas");
-            System.out.println("5 - Consultar meus anuncios");
+            System.out.println("5 - Consultar meus anúncios");
             System.out.println("0 - Voltar ao menu principal");
-            System.out.print("Escolha uma opcao: ");
+            System.out.println();
+            System.out.print("Escolha uma opção: ");
 
             opcao = scanner.nextInt();
             scanner.nextLine();

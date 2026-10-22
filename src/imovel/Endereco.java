@@ -1,18 +1,21 @@
 package imovel;
 
+import java.util.Scanner;
+
 public class Endereco {
 
     private String rua;
-    private String numero;
+    private int numero;
     private String bairro;
     private String cidade;
     private String estado;
-    private String cep;
+    private int cep;
+    private Scanner sc;
 
     public Endereco() {
     }
 
-    public Endereco(String rua, String numero, String bairro, String cidade, String estado, String cep) {
+    public Endereco(String rua, int numero, String bairro, String cidade, String estado, int cep) {
         this.rua = rua;
         this.numero = numero;
         this.bairro = bairro;
@@ -22,34 +25,34 @@ public class Endereco {
     }
 
     public String getRua() {
-        return rua;
+        return sc.nextLine();
     }
 
-    public String getNumero() {
-        return numero;
+    public int getNumero() {
+        return sc.nextInt();
     }
 
     public String getBairro() {
-        return bairro;
+        return sc.nextLine();
     }
 
     public String getCidade() {
-        return cidade;
+        return sc.nextLine();
     }
 
     public String getEstado() {
-        return estado;
+        return sc.nextLine();
     }
 
-    public String getCep() {
-        return cep;
+    public int getCep() {
+        return sc.nextInt();
     }
 
     public void setRua(String rua) {
         this.rua = rua;
     }
 
-    public void setNumero(String numero) {
+    public void setNumero(int numero) {
         this.numero = numero;
     }
 
@@ -65,7 +68,7 @@ public class Endereco {
         this.estado = estado;
     }
 
-    public void setCep(String cep) {
+    public void setCep(int cep) {
         this.cep = cep;
     }
 

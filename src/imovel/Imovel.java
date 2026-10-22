@@ -13,11 +13,13 @@ public class Imovel {
 
     public Imovel(Endereco endereco,TipoImovel tipo, double precoDiaria, Disponibilidade dataEntrada, Disponibilidade dataSaida) {
         this.endereco = endereco;
-        this.tipo =  tipo;
+        this.tipo = tipo;
         this.precoDiaria = precoDiaria;
         this.dataEntrada = dataEntrada;
         this.dataSaida = dataSaida;
     }
+
+
 
 }
 
