@@ -10,48 +10,55 @@ public class Endereco {
     private String cidade;
     private String estado;
     private int cep;
+    private  String pais;
     private Scanner sc;
 
     public Endereco() {
     }
 
-    public Endereco(String rua, int numero, String bairro, String cidade, String estado, int cep) {
+    public Endereco(String rua, int numero, String bairro, String cidade, String estado, int cep, String pais) {
         this.rua = rua;
         this.numero = numero;
         this.bairro = bairro;
         this.cidade = cidade;
         this.estado = estado;
         this.cep = cep;
+        this.pais = pais;
     }
 
     public String getRua() {
-        System.out.print("Digite sua rua: ");
+        System.out.print("Digite a rua: ");
         return sc.nextLine();
     }
 
     public int getNumero() {
-        System.out.print("Digite seu número: ");
+        System.out.print("Digite o número: ");
         return sc.nextInt();
     }
 
     public String getBairro() {
-        System.out.print("Digite seu bairro: ");
+        System.out.print("Digite o bairro: ");
         return sc.nextLine();
     }
 
     public String getCidade() {
-        System.out.print("Digite sua cidade: ");
+        System.out.print("Digite a cidade: ");
         return sc.nextLine();
     }
 
     public String getEstado() {
-        System.out.print("Digite seu estado: ");
+        System.out.print("Digite 0 estado: ");
         return sc.nextLine();
     }
 
     public int getCep() {
-        System.out.print("Digite seu CEP: ");
+        System.out.print("Digite o CEP: ");
         return sc.nextInt();
+    }
+
+    public String getPais() {
+        System.out.print("Digite o país: ");
+        return  sc.nextLine();
     }
 
     public void setRua(String rua) {
