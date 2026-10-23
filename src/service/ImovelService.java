@@ -8,7 +8,5 @@ import imovel.Endereco;
 
         Endereco endereco = new Endereco();
 
-
-
     }
 }
