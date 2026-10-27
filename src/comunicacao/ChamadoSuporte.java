@@ -1,9 +1,9 @@
-package br.com.airbnb.airbnb.src.comunicacao;
+package comunicacao;
 
 public class ChamadoSuporte {
     private String motivo;
     private String status;
-    private boolean urgente;
+
     private String dataAbertura;
 
     public ChamadoSuporte() {

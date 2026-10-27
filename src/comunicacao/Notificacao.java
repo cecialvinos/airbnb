@@ -1,4 +1,4 @@
-package br.com.airbnb.airbnb.src.comunicacao;
+package comunicacao;
 
 public class Notificacao {
     private String titulo;

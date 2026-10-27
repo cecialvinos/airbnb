@@ -1,4 +1,4 @@
-package br.com.airbnb.airbnb.src.hospedagem;
+package hospedagem;
 
 public class Comodidade {
     private String nome; // ex: Wi-Fi, Ar Condicionado, Piscina

@@ -1,4 +1,4 @@
-package br.com.airbnb.airbnb.src.reserva;
+package reserva;
 
 public class PoliticaCancelamento {
     private String tipo; // ex: Flexivel, Moderada, Rigorosa

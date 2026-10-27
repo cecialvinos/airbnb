@@ -1,4 +1,4 @@
-package src.reserva;
+package reserva;
 
 import java.time.LocalDateTime;
 
@@ -9,15 +9,20 @@ public class Suporte{
     private String descricao;
     private String status;
     private String respostaSuporte;
+    private boolean urgente;
     private LocalDateTime dataAbertura;
 
-    public Suporte(int id, String nomeCliente, String assunto, String descricao) {
+    public Suporte() {
+    }
+
+    public Suporte(int id, String nomeCliente, String assunto, String descricao, Boolean urgente) {
         this.id = id;
         this.nomeCliente = nomeCliente;
         this.assunto = assunto;
         this.descricao = descricao;
         this.status = "Aberto";
         this.respostaSuporte = "Aguardando atendimento.";
+        this.urgente = urgente;
         this.dataAbertura = LocalDateTime.now();
     }
 
@@ -27,14 +32,28 @@ public class Suporte{
         System.out.println("Chamado #" + id + " atualizado para: " + novoStatus);
     }
 
-    public int getId() { return id; }
-    public String getNomeCliente() { return nomeCliente; }
-    public String getAssunto() { return assunto; }
-    public String getDescricao() { return descricao; }
-    public String getStatus() { return status; }
-    public String getRespostaSuporte() { return respostaSuporte; }
-    public LocalDateTime getDataAbertura() { return dataAbertura; }
+    public int getId() {
+        return id; }
 
-    public void setStatus(String status) { this.status = status; }
+    public String getNomeCliente(){
+        return nomeCliente; }
+
+    public String getAssunto() {
+        return assunto; }
+
+    public String getDescricao() {
+        return descricao; }
+
+    public String getStatus() {
+        return status; }
+
+    public String getRespostaSuporte() {
+        return respostaSuporte; }
+
+    public LocalDateTime getDataAbertura() {
+        return dataAbertura; }
+
+    public void setStatus(String status) {
+        this.status = status; }
 
 }
