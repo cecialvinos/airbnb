@@ -1,4 +1,4 @@
-package br.com.airbnb.airbnb.src.promocao;
+package promocao;
 
 public class OfertaEspecial {
     private String titulo;

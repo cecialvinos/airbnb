@@ -1,4 +1,4 @@
-package br.com.airbnb.airbnb.src.hospedagem;
+package hospedagem;
 
 public class ServicoAdicional {
     private String nome;

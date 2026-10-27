@@ -38,6 +38,11 @@ public class Disponibilidade {
         this.dataSaida = dataSaida;
     }
 
+    public boolean verificarConflito(LocalDate dataDesejada) {
+
+        return !dataDesejada.isBefore(dataEntrada) && !dataDesejada.isAfter(dataSaida);
+    }
+
     public void reservar() {
         if (!disponivel) {
             System.out.println("Este periodo ja esta reservado.");
