@@ -1,9 +1,5 @@
 # Registro das etapas - Projeto Airbnb (POO em Java)
 
-**Aluno:** Maria Cecília Alvino
-**Turma:** segundo período
-**Data:** 21/10/26
-
 ## 1. Compreensão do problema
 O sistema representa uma plataforma de aluguel por temporada: proprietários anunciam imóveis e hóspedes fazem reservas.
 Funcionalidades básicas: cadastrar/editar/remover imóveis (proprietário) e pesquisar/reservar/cancelar reservas (hóspede).
