@@ -3,7 +3,7 @@ package comunicacao;
 public class Mensagem {
     private String texto;
     private String dataEnvio;
-    private boolean lida;
+    private boolean lida; //67
 
     public Mensagem() {
     }
