@@ -1,9 +1,8 @@
-package src.usuario;
+package usuario;
 
 public class User{
     private String nome;
     private String senha;
-    private String telefone;
     private boolean ehAnfitriao;
 
     public User(String nome, String senha, String telefone, boolean ehAnfitriao){

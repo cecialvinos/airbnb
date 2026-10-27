@@ -4,15 +4,17 @@ public class Usuario {
 
     private String nome;
     private String cpf;
+    private String telefone;
     private String email;
     private String senha;
 
     public Usuario() {
     }
 
-    public Usuario(String nome, String cpf, String email, String senha) {
+    public Usuario(String nome, String cpf, String telefone, String email, String senha) {
         this.nome = nome;
         this.cpf = cpf;
+        this.telefone = telefone;
         this.email = email;
         this.senha = senha;
     }
@@ -29,6 +31,10 @@ public class Usuario {
         return email;
     }
 
+    public String getTelefone() {
+        return telefone;
+    }
+
     public String getSenha() {
         return senha;
     }
@@ -39,6 +45,10 @@ public class Usuario {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
 
     // validacao simples: o email precisa conter '@'

@@ -33,27 +33,34 @@ public class Suporte{
     }
 
     public int getId() {
-        return id; }
+        return id;
+    }
 
     public String getNomeCliente(){
         return nomeCliente; }
 
     public String getAssunto() {
-        return assunto; }
+        return assunto;
+    }
 
     public String getDescricao() {
-        return descricao; }
+        return descricao;
+    }
 
     public String getStatus() {
-        return status; }
+        return status;
+    }
 
     public String getRespostaSuporte() {
-        return respostaSuporte; }
+        return respostaSuporte;
+    }
 
     public LocalDateTime getDataAbertura() {
-        return dataAbertura; }
+        return dataAbertura;
+    }
 
     public void setStatus(String status) {
-        this.status = status; }
+        this.status = status;
+    }
 
 }

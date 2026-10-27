@@ -4,33 +4,47 @@ public class Pagamento {
 
     private int id;
     private double valor;
-    private String metodo;
-    private boolean pago;
+    private String metodoPagamento; // ex: Cartao, PIX
+    private String dataPagamento;
+    private boolean aprovado;
 
     public Pagamento() {
     }
 
-    public Pagamento(int id, double valor, String metodo) {
+    public Pagamento(int id, double valor, String metodoPagamento, String dataPagamento, boolean aprovado) {
         this.id = id;
         this.valor = valor;
-        this.metodo = metodo;
-        this.pago = false;
-    }
-
-    public int getId() {
-        return id;
+        this.metodoPagamento = metodoPagamento;
+        this.dataPagamento = dataPagamento;
+        this.aprovado = aprovado;
     }
 
     public double getValor() {
         return valor;
     }
 
-    public String getMetodo() {
-        return metodo;
+    public String getFormaPagamento() {
+        return metodoPagamento;
     }
 
-    public boolean isPago() {
-        return pago;
+    public void setFormaPagamento(String formaPagamento) {
+        this.metodoPagamento = formaPagamento;
+    }
+
+    public String getDataPagamento() {
+        return dataPagamento;
+    }
+
+    public void setDataPagamento(String dataPagamento) {
+        this.dataPagamento = dataPagamento;
+    }
+
+    public boolean isAprovado() {
+        return aprovado;
+    }
+
+    public void setAprovado(boolean aprovado) {
+        this.aprovado = aprovado;
     }
 
     // validacao: o valor precisa ser maior que zero
@@ -42,18 +56,14 @@ public class Pagamento {
         this.valor = valor;
     }
 
-    public void setMetodo(String metodo) {
-        this.metodo = metodo;
-    }
-
     public void realizarPagamento() {
-        pago = true;
-        System.out.println("Pagamento registrado com sucesso!");
+        this.aprovado = true;
+        System.out.println("Pagamento de R$ " + valor + " via " + aprovado + " realizado com sucesso!");
     }
 
     public void estornarPagamento() {
-        if (pago) {
-            pago = false;
+        if (aprovado) {
+            aprovado = false;
             System.out.println("Pagamento estornado.");
         } else {
             System.out.println("O pagamento ainda não foi realizado.");
