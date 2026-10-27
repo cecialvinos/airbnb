@@ -3,7 +3,7 @@ package comunicacao;
 public class Mensagem {
     private String texto;
     private String dataEnvio;
-    private boolean lida; //12345678910111213
+    private boolean lida; //1234567891011121367
 
     public Mensagem() {
     }
