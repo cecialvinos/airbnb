@@ -1,4 +1,6 @@
-package menu;
+package programa;
+
+import menu.MenuPrincipal;
 
 public class Main {
 
