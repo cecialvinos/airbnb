@@ -1,5 +1,7 @@
 package menu;
 
+import service.ImovelService;
+
 import java.util.Scanner;
 
 public class MenuProprietario {
@@ -29,7 +31,8 @@ public class MenuProprietario {
 
             switch (opcao) {
                 case 1:
-                    System.out.println("Cadastrar imovel...");
+                    ImovelService imovelService = new ImovelService();
+                    imovelService.cadastrarEndereco();
                     break;
 
                 case 2:
