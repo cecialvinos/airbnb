@@ -28,10 +28,15 @@ public class Imovel {
         this.notaMedia = 0.0;
     }
 
-    public String getNomeImovel () {
-        System.out.print("Digite nome do imóvel: ");
-        return sc.nextLine();
+    public String getNomeImovel() {
+        return nomeImovel;
     }
 
+    public void setNomeImovel() {
+        this.nomeImovel = nomeImovel;
+    }
 
+    public void alterarNome() {
+        this.nomeImovel = sc.nextLine();
+    }
 }
